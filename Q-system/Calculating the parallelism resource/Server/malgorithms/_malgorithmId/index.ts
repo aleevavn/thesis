@@ -1,1 +1,0 @@
-import Router from "express-promise-router";import $getRoot from "./root-get";import $patchRoot from "./root-patch";const router = Router({  mergeParams: true,});export default router;router.patch("/", $patchRoot);router.get("/", $getRoot);
