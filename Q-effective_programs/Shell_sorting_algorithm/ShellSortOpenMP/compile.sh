@@ -1,0 +1,1 @@
+g++ -std=c++0x -fopenmp main.cpp -o main
